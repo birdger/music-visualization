@@ -1,0 +1,14 @@
+{
+  "name": "music-visualization",
+  "version": "1.0.0",
+  "private": true,
+  "description": "音乐可视化工坊：频谱柱 / 粒子场 / 波形 / 极坐标 / 圆环频谱五模式（Web Audio API + 手写 FFT 采样 + 麦克风输入 + 无头浏览器像素级验证）",
+  "type": "module",
+  "scripts": {
+    "serve": "node tools/serve.mjs 4184",
+    "test": "node --test tools/core.test.mjs",
+    "verify": "node tools/verify.mjs"
+  },
+  "keywords": ["music-visualizer", "web-audio", "fft", "spectrum", "particles", "canvas"],
+  "license": "MIT"
+}
